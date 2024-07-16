@@ -1,0 +1,1 @@
+LES|SUP1|FTP_LESConnect|L1232313_abc.pdf|TestClient|Imported|24-07-08 06:46 : PDF ‘L1232313_abc.pdf’ successfully imported to TestClient

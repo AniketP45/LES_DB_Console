@@ -1,0 +1,2 @@
+|15002916|MailDownloader|240712_134945907.msg|240712_134945907.msg|Notify|24-07-12 13:49 : RE: MV Sterling Saga - cobelfret sa - agent appointment for bunker and chemicals supply at Singapore - Transaction Rejected Please Refer to Enclosed Email,Invalid Sender
+0|15002916|MailDownloader|240712_134945907.msg|240712_134945907.msg|Downloaded|24-07-12 13:49 : Mail downloaded, Processing status - Downloaded attachment files - 240712_134945907.msg Mail From - [sales@richshore.com] Mail To - ["Johnasia Singapore/ Ops" <singapore@johnasia.com>, "ops.pmax" <ops.pmax@cobelfret.com>]

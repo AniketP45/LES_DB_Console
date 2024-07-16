@@ -1,0 +1,15 @@
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\Read_File.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\Read_File.pdb
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\HTTPMethods.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\HTTPWrapper.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\LeS.Common.Routines.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\LeSCommon.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Aniket\Project\LES_DB_Console\Read_File\obj\Debug\Read_File.csproj.AssemblyReference.cache
+C:\Aniket\Project\LES_DB_Console\Read_File\obj\Debug\Read_File.csproj.CoreCompileInputs.cache
+C:\Aniket\Project\LES_DB_Console\Read_File\obj\Debug\Read_File.csproj.CopyComplete
+C:\Aniket\Project\LES_DB_Console\Read_File\obj\Debug\Read_File.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\obj\Debug\Read_File.pdb
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\Newtonsoft.Json.dll
+C:\Aniket\Project\LES_DB_Console\Read_File\bin\Debug\Newtonsoft.Json.xml
