@@ -1,0 +1,216 @@
+17-07-2024 12:15:49 ====================================
+17-07-2024 12:15:49  Process Started...
+7/17/2024 12:15:49 PM Default regional setting - English (India)
+7/17/2024 12:15:49 PM Current regional setting - English (United States)
+7/17/2024 12:15:49 PM Total file found =18
+7/17/2024 12:15:49 PM Processing Started for file -Audit_20240701020412679.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701020412679.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701020412679.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_20240701104952765.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701104952765.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701104952765.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_20240701143904808.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701143904808.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701143904808.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_20240701143904824.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701143904824.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701143904824.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_20240701164913758.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701164913758.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701164913758.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_20240701165032625.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_20240701165032625.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_20240701165032625.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_2024070218572704.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_2024070218572704.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_2024070218572704.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_2024070218572729.txt
+7/17/2024 12:16:04 PM Data posted Successfully for file -Audit_2024070218572729.txt
+7/17/2024 12:16:04 PM Process Completed Successfully for file - Audit_2024070218572729.txt
+7/17/2024 12:16:04 PM Processing Started for file -Audit_2024070218573432.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070218573432.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070218573432.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070218573455.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070218573455.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070218573455.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219172421.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219172421.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219172421.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219172422.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219172422.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219172422.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219173043.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219173043.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219173043.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219173045.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219173045.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219173045.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219272347.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219272347.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219272347.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070219272350.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070219272350.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070219272350.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070418272638.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070418272638.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070418272638.txt
+7/17/2024 12:16:05 PM Processing Started for file -Audit_2024070418272641.txt
+7/17/2024 12:16:05 PM Data posted Successfully for file -Audit_2024070418272641.txt
+7/17/2024 12:16:05 PM Process Completed Successfully for file - Audit_2024070418272641.txt
+7/17/2024 12:16:05 PM  Process Completed...
+7/17/2024 12:16:05 PM ====================================
+17-07-2024 12:32:55 ====================================
+17-07-2024 12:32:55  Process Started...
+7/17/2024 12:32:55 PM Default regional setting - English (India)
+7/17/2024 12:32:55 PM Current regional setting - English (United States)
+7/17/2024 12:32:55 PM Total file found =18
+7/17/2024 12:32:55 PM Processing Started for file -Audit_20240702002224226.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702002224226.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702002224226.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702002320163.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702002320163.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702002320163.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702002415019.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702002415019.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702002415019.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702002510740.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702002510740.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702002510740.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702032121543.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702032121543.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702032121543.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702040429800.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702040429800.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702040429800.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702142815788.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702142815788.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702142815788.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702144318830.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702144318830.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702144318830.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702145403136.txt
+7/17/2024 12:32:59 PM Data posted Successfully for file -Audit_20240702145403136.txt
+7/17/2024 12:32:59 PM Process Completed Successfully for file - Audit_20240702145403136.txt
+7/17/2024 12:32:59 PM Processing Started for file -Audit_20240702153843687.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702153843687.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702153843687.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702154254109.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702154254109.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702154254109.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702154454656.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702154454656.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702154454656.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702154702137.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702154702137.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702154702137.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702154753016.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702154753016.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702154753016.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702155904711.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702155904711.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702155904711.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702160104906.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702160104906.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702160104906.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702193756816.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702193756816.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702193756816.txt
+7/17/2024 12:33:00 PM Processing Started for file -Audit_20240702212158840.txt
+7/17/2024 12:33:00 PM Data posted Successfully for file -Audit_20240702212158840.txt
+7/17/2024 12:33:00 PM Process Completed Successfully for file - Audit_20240702212158840.txt
+7/17/2024 12:33:00 PM  Process Completed...
+7/17/2024 12:33:00 PM ====================================
+17-07-2024 12:46:33 ====================================
+17-07-2024 12:46:33  Process Started...
+7/17/2024 12:46:33 PM Default regional setting - English (India)
+7/17/2024 12:46:33 PM Current regional setting - English (United States)
+7/17/2024 12:46:33 PM Total file found =29
+7/17/2024 12:46:33 PM Processing Started for file -Audit_20240706022021166.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706022021166.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706022021166.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706100423635.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706100423635.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706100423635.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706101945460.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706101945460.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706101945460.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706102053888.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706102053888.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706102053888.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706193428826.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706193428826.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706193428826.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706193546381.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706193546381.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706193546381.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706193648726.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706193648726.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706193648726.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706193825616.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706193825616.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706193825616.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706222125828.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706222125828.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706222125828.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706222310953.txt
+7/17/2024 12:46:38 PM Data posted Successfully for file -Audit_20240706222310953.txt
+7/17/2024 12:46:38 PM Process Completed Successfully for file - Audit_20240706222310953.txt
+7/17/2024 12:46:38 PM Processing Started for file -Audit_20240706222512437.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706222512437.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706222512437.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240706222749535.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706222749535.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706222749535.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240706224156199.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706224156199.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706224156199.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240706224320431.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706224320431.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706224320431.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240706224434655.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706224434655.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706224434655.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240706224542136.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240706224542136.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240706224542136.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240707004909043.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240707004909043.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240707004909043.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240707220451613.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240707220451613.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240707220451613.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240707220619413.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240707220619413.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240707220619413.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240707221147250.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240707221147250.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240707221147250.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240707222206773.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240707222206773.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240707222206773.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240708104932567.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240708104932567.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240708104932567.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240708105103315.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240708105103315.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240708105103315.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240708105623249.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240708105623249.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240708105623249.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240708110021576.txt
+7/17/2024 12:46:39 PM Data posted Successfully for file -Audit_20240708110021576.txt
+7/17/2024 12:46:39 PM Process Completed Successfully for file - Audit_20240708110021576.txt
+7/17/2024 12:46:39 PM Processing Started for file -Audit_20240708130750610.txt
+7/17/2024 12:46:40 PM Data posted Successfully for file -Audit_20240708130750610.txt
+7/17/2024 12:46:40 PM Process Completed Successfully for file - Audit_20240708130750610.txt
+7/17/2024 12:46:40 PM Processing Started for file -Audit_20240708132046085.txt
+7/17/2024 12:46:40 PM Data posted Successfully for file -Audit_20240708132046085.txt
+7/17/2024 12:46:40 PM Process Completed Successfully for file - Audit_20240708132046085.txt
+7/17/2024 12:46:40 PM Processing Started for file -Audit_20240708132139018.txt
+7/17/2024 12:46:40 PM Data posted Successfully for file -Audit_20240708132139018.txt
+7/17/2024 12:46:40 PM Process Completed Successfully for file - Audit_20240708132139018.txt
+7/17/2024 12:46:40 PM Processing Started for file -Audit_20240708132219833.txt
+7/17/2024 12:46:40 PM Data posted Successfully for file -Audit_20240708132219833.txt
+7/17/2024 12:46:40 PM Process Completed Successfully for file - Audit_20240708132219833.txt
+7/17/2024 12:46:40 PM  Process Completed...
+7/17/2024 12:46:40 PM ====================================

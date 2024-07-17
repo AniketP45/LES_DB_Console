@@ -48,7 +48,8 @@ namespace Read_File
                     string AuditFile = AuditFiles[i];
                     if (ProcessAuditFile(AuditFile))
                     {
-                        LogText = Path.GetFileName(AuditFile) + " Processed Successfully";
+                        //LogText = Path.GetFileName(AuditFile) + " Processed Successfully";
+                        LogText = "Process Completed Successfully for file - " + Path.GetFileName(AuditFile);
                         MoveFiles(AuditFile, AuditLogPath + "\\Success\\" + Path.GetFileName(AuditFile));
 
                     }
@@ -93,6 +94,9 @@ namespace Read_File
             string json = "";
             bool response = false;
             AuditLog auditLog = new AuditLog();
+
+            LogText = "Processing Started for file -" + Path.GetFileName(path);
+
             try
             {
                 if (path == null)

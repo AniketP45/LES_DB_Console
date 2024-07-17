@@ -16,10 +16,10 @@ namespace LES_DB_Console
         {
             READFILE read = new READFILE();
             read.LogText = "====================================";
-            read.LogText = processor_name + " Process Started...";
+            read.LogText =  " Process Started...";
             SetCulture(read);
             read.StartProcess();
-            read.LogText = processor_name + " Process Completed...";
+            read.LogText = " Process Completed...";
             read.LogText = "====================================";
             Environment.Exit(0);
         }
