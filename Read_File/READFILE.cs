@@ -5,9 +5,12 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Security.AccessControl;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Read_File
 {
@@ -16,7 +19,7 @@ namespace Read_File
 
         List<string> AuditFiles;
 
-        public string AuditLogPath = "",AuditLog_API="";
+        public string AuditLogPath = "",AuditLog_API="", AUTH_API="";
 
         public void StartProcess()
         {
@@ -24,6 +27,9 @@ namespace Read_File
             {
                 AuditLogPath = ConfigurationManager.AppSettings["AUDITLOG_PATH"];
                 AuditLog_API = ConfigurationManager.AppSettings["AUDITLOG_API"];
+                AUTH_API = ConfigurationManager.AppSettings["AUTH_API"];
+
+                
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
 
                 Read_Audit_File();
@@ -46,20 +52,26 @@ namespace Read_File
                 for (int i = 0; i < AuditFiles.Count; i++)
                 {
                     string AuditFile = AuditFiles[i];
-                    if (ProcessAuditFile(AuditFile))
+                    string result = ProcessAuditFile(AuditFile);
+
+                    switch (result)
                     {
-                        //LogText = Path.GetFileName(AuditFile) + " Processed Successfully";
-                        LogText = "Process Completed Successfully for file - " + Path.GetFileName(AuditFile);
-                        MoveFiles(AuditFile, AuditLogPath + "\\Success\\" + Path.GetFileName(AuditFile));
+                        case nameof(FileProcessingResult.ServerError):
+                            continue;  
 
+                        case nameof(FileProcessingResult.Success):
+                            LogText = "Process Completed Successfully for file - " + Path.GetFileName(AuditFile);
+                            MoveFiles(AuditFile, AuditLogPath + "\\Success\\" + Path.GetFileName(AuditFile));
+                            break;
+
+                        case nameof(FileProcessingResult.Failure):
+                            LogText = "Error on Processing File -" + Path.GetFileName(AuditFile);
+                            MoveFiles(AuditFile, AuditLogPath + "\\ERROR\\" + Path.GetFileName(AuditFile));
+                            break;
                     }
-                    else
-                    {
-                        LogText = "Error on Processing File -"+ Path.GetFileName(AuditFile);
 
-                        MoveFiles(AuditFile, AuditLogPath + "\\ERROR\\" + Path.GetFileName(AuditFile));
 
-                    }
+
                 }
             }
             else
@@ -87,12 +99,12 @@ namespace Read_File
 
       
 
-        public  bool ProcessAuditFile(string path)
+        public  string ProcessAuditFile(string path)
         {
             string[] slAudit;
             string result;
             string json = "";
-            bool response = false;
+            string response = "Failure";
             AuditLog auditLog = new AuditLog();
 
             LogText = "Processing Started for file -" + Path.GetFileName(path);
@@ -106,7 +118,6 @@ namespace Read_File
 
                 using (StreamReader streamReader = new StreamReader(path, Encoding.UTF8))
                 {
-                    //result = streamReader.ReadToEnd();
 
                     while ((result = streamReader.ReadLine()) != null)
                     {
@@ -135,6 +146,8 @@ namespace Read_File
 
                                 response = PostData(json, path);
 
+                                 
+
                             }
                         }catch(Exception ex)
                         {
@@ -150,23 +163,101 @@ namespace Read_File
         }
 
 
-        public bool PostData(string json,string path)
+        public string PostData(string json,string path)
         {
+            string result = "Failure";
 
-            string url = AuditLog_API;
-
-            _httpWrapper.AcceptMimeType = "*/*";
-            _httpWrapper.RequestMethod = "POST";
-            _httpWrapper.ContentType = "application/json";
-
-            bool result = _httpWrapper.PostURL(url, json, "", "", "");
-            if (result)
+            try
             {
-                LogText = "Data posted Successfully for file -" + Path.GetFileName(path);
+                _httpWrapper._SetRequestHeaders.Clear();
+                string url = AuditLog_API;
+                string token = GetJwtTokenAsync(AUTH_API).Result;
+
+                _httpWrapper._SetRequestHeaders.Add(HttpRequestHeader.Authorization, "Bearer "+ token);
+                _httpWrapper.AcceptMimeType = "*/*";
+                _httpWrapper.RequestMethod = "POST";
+                _httpWrapper.ContentType = "application/json";
+
+                bool response = _httpWrapper.PostURL(url, json, "", "", "");
+                if (response)
+                {
+                    LogText = "Data posted Successfully for file -" + Path.GetFileName(path);
+                    result = "Success";
+                }
+            }catch (Exception ex)
+            {
+                if (IsNetworkIssue(ex.Message))
+                {
+                    LogText = "File Will not move to Error";
+                    result = "ServerError";
+
+                }
+
             }
 
-
             return result;
+        }
+
+ public async Task<string> GetJwtTokenAsync(string tokenEndpoint)
+    {
+        string result = "";
+
+        HttpClient client = new HttpClient();
+        HttpResponseMessage response = await client.PostAsync(tokenEndpoint,null);
+
+        if (response.IsSuccessStatusCode)
+        {
+            string responseBody = await response.Content.ReadAsStringAsync();
+            //Console.WriteLine(responseBody);
+            result = responseBody; 
+        }
+        else
+        {
+            Console.WriteLine($"Error: {response.StatusCode}");
+        }
+
+        return result;
+    }
+
+        public Boolean IsNetworkIssue(string cExcepetion)
+        {
+            Boolean ret = false;
+            try
+            {
+                if (cExcepetion.Contains("The remote server returned an error: (403) Forbidden"))
+                    ret = true;
+                else if (cExcepetion.Contains("The remote server returned an error: (405)"))
+                    ret = true;
+                else if (cExcepetion.Contains("The remote server returned an error: (404) Not Found"))
+                    ret = true;
+                else if (cExcepetion.Contains("Server Unavailable"))
+                    ret = true;
+                else if (cExcepetion.Contains("Could not get any response"))
+                    ret = true;
+                else if (cExcepetion.Contains("Unable to connect to the remote server"))
+                    ret = true;
+                else if (cExcepetion.Contains("Exception has been thrown by the target of an invocation"))
+                    ret = true;
+                else if (cExcepetion.Contains("(500) Internal Server Error"))
+                    ret = true;
+                else if (cExcepetion.Contains("Encrypted Message Required"))
+                    ret = true;
+                else if (cExcepetion.Contains("The operation has timed out"))
+                    ret = true;
+            }
+            catch (Exception ex)
+            {
+                LogText = "Error in checking network issue - " + ex.Message;
+            }
+            return ret;
+        }
+
+
+        enum FileProcessingResult
+        {
+            Success,
+            Failure,
+            ServerError
         }
 
     }
